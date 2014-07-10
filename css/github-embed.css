@@ -1,5 +1,5 @@
 .github-embed { 
-	padding: 0.5em 2em 0.5em 4em;
+	padding: 0.5em 0.1em 0.5em 4em;
 	background-color: #fdfdfd;
 	width: 80%;
 	margin: auto;
@@ -12,13 +12,23 @@
 	box-shadow: 2px 2px 2px #ddd;
 }
 
+ul.github-repo-contributors {
+	margin: 0;
+}
+
 li.github-repo-contributor {
 	clear: both;
-	display: block;
+	display: inline-block;
+	max-width: 40px;
+	padding-right: 44px;
+	vertical-align: top;
+	padding-bottom: 20px;
+	font-size: 10px;
 }
 
 .github-repo-contributor-avatar {
 	float: left;
 	margin-right: 1em;
 	margin-bottom: 0.5em;
+	max-width: 40px;
 }
